@@ -150,7 +150,7 @@ class QuizFragment : Fragment() {
         // Set Question
         qInd++
         if (qInd < questions.size) {
-            (activity as AppCompatActivity).supportActionBar?.title = "Question $qInd/12"
+            (activity as AppCompatActivity).supportActionBar?.title = "Question ${qInd + 1}/12"
             val shuffledQuestions = questions[qInd].answers.shuffled()
             binding.questionTitle.text = questions[qInd].question
             binding.radio1.text = shuffledQuestions[0]
