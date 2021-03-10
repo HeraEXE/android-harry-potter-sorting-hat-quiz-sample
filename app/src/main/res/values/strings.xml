@@ -1,0 +1,66 @@
+<resources>
+    <string name="app_name">Sorting Hat Quiz</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="start_quiz_button_text">start quiz
+    </string>
+    <string name="title_text">Find out what Hogwarts house you belong to.</string>
+    <string name="gryffindor_title_text">Gryffindor</string>
+    <string name="hufflepuff_title_text">Hufflepuff</string>
+    <string name="ravenclaw_title_text">Ravenclaw</string>
+    <string name="slytherin_title_text">Slytherin</string>
+    <string name="gryffindor_text">
+        Gryffindor is one of the four Houses of Hogwarts
+        School of Witchcraft and Wizardry and was founded by Godric Gryffindor.
+        Gryffindor instructed the Sorting Hat to choose students possessing characteristics he most valued,
+        such as courage, chivalry, and determination, to be sorted into his house.
+        The emblematic animal is a lion, and its colours are scarlet and gold.
+        Sir Nicholas de Mimsy-Porpington, also known as "Nearly Headless Nick" is the House ghost.
+        Gryffindor corresponds roughly to the element of fire,
+        and it is for this reason that the colours scarlet and gold were chosen to represent the house.
+        The colour of fire corresponds to that of a lion as well,
+        with scarlet representing the mane and tail and gold representing the coat.
+    </string>
+    <string name="hufflepuff_text">
+        Hufflepuff was one of the four Houses of Hogwarts
+        School of Witchcraft and Wizardry. Its founder was the medieval witch Helga Hufflepuff.
+        Hufflepuff was the most inclusive among the four houses; valuing hard work, dedication, patience,
+        loyalty, and fair play rather than a particular aptitude in its members.
+        The emblematic animal was a badger, yellow and black were its house colours.
+        The Head of Hufflepuff was Pomona Sprout, and the Fat Friar was the House patron ghost.
+        Hufflepuff corresponded roughly to the element of earth, and it is for that reason
+        that the House colours were chosen: yellow represented wheat, while black was emblematic of soil.
+        The Hufflepuff point hourglass contains yellow diamonds. Students sorted into Hufflepuff
+        often demonstrate exceptional abilities in Herbology, owing to their correspondence to earth.
+    </string>
+    <string name="slytherin_text">
+        Slytherin is one of the four Houses at Hogwarts School of Witchcraft and Wizardry, founded by Salazar Slytherin.
+        In establishing the house, Salazar instructed the Sorting Hat to pick students who had
+        a few particular characteristics he most valued. Those characteristics include cunning, resourcefulness,
+        leadership, and ambition. Many Slytherin students tend to clique together, often acquiring leaders,
+        which further exemplifies Slytherin ambitious qualities.
+        Examples of these include Draco Malfoy Gang and the Death Eaters.
+        The founder highly valued and favoured pure-blood students and the Sorting Hat admitted that
+        it can be a factor when being sorted. Students of any blood status can now be placed in the house.
+        However, a Muggle-Born student from that house is considered to be quite rare.
+        The emblematic animal of the house is a snake and its colours are green and silver.
+        There were two notable heads of the house; Horace Slughorn took the role twice
+        (first leaving in 1981 and then taking the role again from 1997 until leaving before 2016), and Severus Snape.
+        The patron ghost of the house is the Bloody Baron. Slytherin corresponds roughly with the element
+        of water due to serpents being commonly associated with the sea and lochs in western European mythology,
+        as well as serpents being physically fluid and flexible animals. Similarly, in Celtic mythology,
+        water is seen as a portal to another world, leading some to speculate that the element was chosen
+        to symbolise many Slytherins hope for a pure-blood only community.
+        The colours also correspond with waters around lakes and lochs often being green,
+        and silver being often associated with grey rainwater.
+    </string>
+    <string name="ravenclaw_text">
+        Ravenclaw is one of the four Houses of Hogwarts School of Witchcraft and Wizardry.
+        Its founder was the medieval witch Rowena Ravenclaw. Members of this house are characterised
+        by their wit, learning, and wisdom. The emblematic animal symbol is an eagle, and blue and bronze are its colours.
+        The Head of Ravenclaw is Filius Flitwick, and the house ghost is the Grey Lady, otherwise known as the daughter
+        of Rowena Ravenclaw, Helena Ravenclaw. Ravenclaw corresponds roughly to the element of air, and it is for
+        that reason that the House colours were chosen; blue and bronze represent the sky and eagle feathers respectively,
+        both having much to do with air. The Ravenclaw points hourglass contains blue sapphires.
+    </string>
+    <string name="submit_button_text">submit</string>
+</resources>

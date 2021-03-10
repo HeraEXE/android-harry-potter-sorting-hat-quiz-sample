@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/titleFragment">
+    <fragment
+        android:id="@+id/titleFragment"
+        android:name="hera.com.sortinghatquiz.TitleFragment"
+        android:label="TitleFragment"
+        tools:layout="@layout/fragment_title" >
+        <action
+            android:id="@+id/action_titleFragment_to_quizFragment"
+            app:destination="@id/quizFragment"
+            app:enterAnim="@android:anim/fade_in"
+            app:exitAnim="@android:anim/fade_out"
+            app:popEnterAnim="@android:anim/fade_in"
+            app:popExitAnim="@android:anim/fade_out" />
+    </fragment>
+    <fragment
+        android:id="@+id/quizFragment"
+        android:name="hera.com.sortinghatquiz.QuizFragment"
+        android:label="QuizFragment"
+        tools:layout="@layout/fragment_quiz" >
+        <action
+            android:id="@+id/action_quizFragment_to_gryffindorFragment"
+            app:destination="@id/gryffindorFragment"
+            app:popUpTo="@id/titleFragment"
+            app:enterAnim="@android:anim/fade_in"
+            app:exitAnim="@android:anim/fade_out"
+            app:popEnterAnim="@android:anim/fade_in"
+            app:popExitAnim="@android:anim/fade_out" />
+        <action
+            android:id="@+id/action_quizFragment_to_ravenclawFragment"
+            app:destination="@id/ravenclawFragment"
+            app:popUpTo="@id/titleFragment"
+            app:enterAnim="@android:anim/fade_in"
+            app:exitAnim="@android:anim/fade_out"
+            app:popEnterAnim="@android:anim/fade_in"
+            app:popExitAnim="@android:anim/fade_out" />
+        <action
+            android:id="@+id/action_quizFragment_to_hufflepuffFragment"
+            app:destination="@id/hufflepuffFragment"
+            app:popUpTo="@id/titleFragment"
+            app:enterAnim="@android:anim/fade_in"
+            app:exitAnim="@android:anim/fade_out"
+            app:popEnterAnim="@android:anim/fade_in"
+            app:popExitAnim="@android:anim/fade_out" />
+        <action
+            android:id="@+id/action_quizFragment_to_slytherinFragment"
+            app:destination="@id/slytherinFragment"
+            app:popUpTo="@id/titleFragment"
+            app:enterAnim="@android:anim/fade_in"
+            app:exitAnim="@android:anim/fade_out"
+            app:popEnterAnim="@android:anim/fade_in"
+            app:popExitAnim="@android:anim/fade_out" />
+    </fragment>
+    <fragment
+        android:id="@+id/gryffindorFragment"
+        android:name="hera.com.sortinghatquiz.GryffindorFragment"
+        android:label="GryffindorFragment"
+        tools:layout="@layout/fragment_gryffindor" />
+    <fragment
+        android:id="@+id/hufflepuffFragment"
+        android:name="hera.com.sortinghatquiz.HufflepuffFragment"
+        android:label="HufflepuffFragment"
+        tools:layout="@layout/fragment_hufflepuff" />
+    <fragment
+        android:id="@+id/ravenclawFragment"
+        android:name="hera.com.sortinghatquiz.RavenclawFragment"
+        android:label="RavenclawFragment"
+        tools:layout="@layout/fragment_ravenclaw" />
+    <fragment
+        android:id="@+id/slytherinFragment"
+        android:name="hera.com.sortinghatquiz.SlytherinFragment"
+        android:label="SlytherinFragment"
+        tools:layout="@layout/fragment_slytherin" />
+</navigation>

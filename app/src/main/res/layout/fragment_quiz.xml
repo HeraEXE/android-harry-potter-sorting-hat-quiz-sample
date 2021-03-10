@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bg_theme"
+        android:clickable="false">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/questionTitle"
+                style="@style/TitleStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:textColor="@color/bistre"
+                tools:text="Here should be a question" />
+
+            <RadioGroup
+                android:id="@+id/radioGroup"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp">
+
+                <RadioButton
+                    android:id="@+id/radio1"
+                    style="@style/DescriptionStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="viewStart"
+                    android:textColor="@color/bistre"
+                    tools:text="answer one" />
+
+                <RadioButton
+                    android:id="@+id/radio2"
+                    style="@style/DescriptionStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:textAlignment="viewStart"
+                    android:textColor="@color/bistre"
+                    tools:text="answer two" />
+
+                <RadioButton
+                    android:id="@+id/radio3"
+                    style="@style/DescriptionStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:textAlignment="viewStart"
+                    android:textColor="@color/bistre"
+                    tools:text="answer three" />
+
+                <RadioButton
+                    android:id="@+id/radio4"
+                    style="@style/DescriptionStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:textAlignment="viewStart"
+                    android:textColor="@color/bistre"
+                    tools:text="answer four" />
+            </RadioGroup>
+
+            <Button
+                android:id="@+id/submitButton"
+                style="@style/ButtonStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="@string/submit_button_text" />
+
+        </LinearLayout>
+    </ScrollView>
+</layout>
